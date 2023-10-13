@@ -1,7 +1,9 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
 
 body{
-    background-color: silver;
+    background-color: rgb(95, 183, 207);
     position: absolute;
     max-width:max-content;
 
@@ -22,7 +24,9 @@ body{
     user-select: none;
     cursor: text;
 
-    display: flex;
+    display: flex; 
+    font-family: 'Allerta Stencil', sans-serif;
+    
 
 }
 
@@ -39,6 +43,7 @@ div.wrapper{
     margin-top: 3cm;
 
     user-select: none;
+    font-family: 'Allerta Stencil', sans-serif;
 }
 
 .div-child {
@@ -67,53 +72,30 @@ div.wrapper{
 .btn {
 
     position: relative;
-    color: white;
+    color: rgb(70 69, 69);
     width: 256px;
-    height: 64px;
-
+    height: 72px;
+    background-color: rgba(0, 0, 0, 0);
     cursor: pointer;
 
-    font-family: 'Open Sans Condensed', sans-serif;
-    line-height: 64px;
-    transition: all 0.3s;
-    span {
-      transition: all 0.3s;
-      transform: scale(1, 1);
-    }
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 72px;
+ 
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+.btn:hover{
+  background-color: rgba(85, 85, 85, 0.5);
+  color: aliceblue;
 }
 
-.btn::before, .btn::after {
-    content: '';
-    position: absolute;
-    transition: all 0.3s;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-  }
+.btn.btn-humaneye{
+  font-size: 19px;
+}
 
-  .btn::before {
-    opacity: 0;
-    background: rgba(0, 0, 0, 0.1);
-    transform: scale(1, 0.1);
-  }
-  
-  .btn:hover::before {
-    opacity: 1;
-    transform: scale(1, 1);
-  }
-  
-  .btn::after {
-    transition: all 0.3s;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-  }
-  
-  .btn:hover::after {
-    transform: scale(1, .1);
-    opacity: 0;
-  }
-  
+.btn.btn-electric{
+  font-size: 22px;
+}
 
 .content-holder{
   margin-left: 24px;
