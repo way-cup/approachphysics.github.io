@@ -3,7 +3,7 @@
 body{
     background-color: silver;
     position: absolute;
-    max-width:fit-content;
+    max-width:max-content;
 
     left: 25%;
 }
