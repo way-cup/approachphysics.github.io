@@ -5,10 +5,9 @@
 
 body{
   background-color: rgb(95, 183, 207);
-  position: absolute;
-  max-width:max-content;
 
-  left: 40dvb;
+  max-width:fit-content;
+  margin-left: 40dvb;
 }
 
 .heading-main{
@@ -93,4 +92,9 @@ div.wrapper{
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 20px;
+}
+
+footer{
+  background-color: rgb(60, 51, 154);
+  font-size: 2dvb;
 }
