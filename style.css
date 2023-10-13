@@ -2,6 +2,10 @@
 
 body{
     background-color: silver;
+    position: absolute;
+    max-width:fit-content;
+
+    left: 25%;
 }
 
 .heading-main{
@@ -11,13 +15,10 @@ body{
     
     outline-color: rgb(87, 87, 87);
     outline-offset: 0.2cm;
-    text-align: left;
+    
     margin-top: 3cm;
 
     width: 600px;
-
-    max-width: 100%;
-    min-width: 30%;
     user-select: none;
     cursor: text;
 
@@ -28,7 +29,6 @@ body{
 .headinghandel{
   display: flex;
 
-  justify-content: center;
 }
 
 
@@ -54,7 +54,7 @@ div.wrapper{
 
 .div-child.Left{
     margin-right: 20px;
-    border-color: aqua;
+    
 }
 
 .div-child.Center{
@@ -115,6 +115,7 @@ div.wrapper{
   
 
 .content-holder{
-  border: yellowgreen;
-  margin-left: 4.5cm;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 20px;
 }
