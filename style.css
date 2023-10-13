@@ -1,88 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
 
 
 body{
-    background-color: rgb(95, 183, 207);
-    position: absolute;
-    max-width:max-content;
+  background-color: rgb(95, 183, 207);
+  position: absolute;
+  max-width:max-content;
 
-    left: 25%;
+  left: 40dvb;
 }
 
 .heading-main{
-    color: rgb(131, 131, 131);
-    outline-style: dashed;
-    border-radius: 1px;
-    
-    outline-color: rgb(87, 87, 87);
-    outline-offset: 0.2cm;
-    
-    margin-top: 3cm;
+  color: rgb(255, 255, 255);
+  margin-top: 15dvb;
+  margin-left: 40dvb;
 
-    width: 600px;
-    user-select: none;
-    cursor: text;
+  user-select: none;
+  cursor: default;
 
-    display: flex; 
-    font-family: 'Allerta Stencil', sans-serif;
-    
-
+  display:flex; 
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 4dvb;
+  
+}
+.heading-main:hover{
+  color:whitesmoke;
+  cursor: pointer;
+  text-decoration: underline dashed rgb(50, 85, 127) 2px;
 }
 
 .headinghandel{
   display: flex;
-
 }
-
-
-
 div.wrapper{
-    display: flex;
+  display: flex;
 
-    margin-top: 3cm;
+  margin-top: 3cm;
 
-    user-select: none;
-    font-family: 'Allerta Stencil', sans-serif;
+  user-select: none;
+  font-family: 'Allerta Stencil', sans-serif;
 }
 
 .div-child {
 
-    flex: 1;
-    border: solid black;
+  flex: 1;
+  border: solid rgb(60, 51, 154);
 
-    text-align: center;
+  text-align: center;
 
-    border-radius: 6px;
+  border-radius: 6px;
 
 }
 
 .div-child.Left{
-    margin-right: 20px;
-    
+  margin-right: 10dvb;
 }
 
 .div-child.Center{
-    margin-right: 20px;
+  margin-right: 10dvb;
 }
-
-
-
 
 .btn {
 
-    position: relative;
-    color: rgb(70 69, 69);
-    width: 256px;
-    height: 72px;
-    background-color: rgba(0, 0, 0, 0);
-    cursor: pointer;
+  position: relative;
+  color: rgb(70 69, 69);
+  width: 256px;
+  height: 72px;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
 
-    font-family: 'Bebas Neue', sans-serif;
-    line-height: 72px;
+  font-family: 'Bebas Neue', sans-serif;
+  line-height: 72px;
  
-    border: 2px solid rgba(0, 0, 0, 0.5);
-    font-size: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  font-size: 20px;
 }
 .btn:hover{
   background-color: rgba(85, 85, 85, 0.5);
