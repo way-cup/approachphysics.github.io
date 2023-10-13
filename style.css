@@ -71,6 +71,7 @@ div.wrapper{
     width: 256px;
     height: 64px;
 
+    cursor: pointer;
 
     font-family: 'Open Sans Condensed', sans-serif;
     line-height: 64px;
