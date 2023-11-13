@@ -1,100 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap');
+@import "compass/css3";
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
 
 
 body{
-  background-color: rgb(95, 183, 207);
-
-  max-width:fit-content;
-  margin-left: 40dvb;
+    background-color: #262626;
+    font-family: 'Inconsolata', monospace;
+    user-select: none;
 }
 
-.heading-main{
-  color: rgb(255, 255, 255);
-  margin-top: 15dvb;
-  margin-left: 40dvb;
 
-  user-select: none;
-  cursor: default;
+.heading-title{
+    color: rgb(255, 255, 255);
+    display: inline;
+    padding-left: 40%;
+    font-size: 40px;
+    text-align: center;
 
-  display:flex; 
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 4dvb;
-  
-}
-.heading-main:hover{
-  color:whitesmoke;
-  cursor: pointer;
-  text-decoration: underline dashed rgb(50, 85, 127) 2px;
+    user-select: none;
+    cursor: default;
 }
 
-.headinghandel{
-  display: flex;
-}
-div.wrapper{
-  display: flex;
 
-  margin-top: 3cm;
+.bywaycup{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    display: inline;
+    font-size: 16px;
 
-  user-select: none;
-  font-family: 'Allerta Stencil', sans-serif;
-}
-
-.div-child {
-
-  flex: 1;
-  border: solid rgb(60, 51, 154);
-
-  text-align: center;
-
-  border-radius: 6px;
-
+    padding-left: 10px;
+    padding-top: 10px;
+    transform: rotate(5deg);
 }
 
-.div-child.Left{
-  margin-right: 10dvb;
-}
 
-.div-child.Center{
-  margin-right: 10dvb;
-}
 
-.btn {
+.sidenav {
+    position: fixed;
+    width: 90px;
+    height: 15%;
+    background-color: #141414;
+    font-family: 'Inconsolata', monospace;
+    border-radius: 5px;
+    display: inline;
+    margin-top: 40%;
+    margin-left: 2%;
 
-  position: relative;
-  color: rgb(70 69, 69);
-  width: 256px;
-  height: 72px;
-  background-color: rgba(0, 0, 0, 0);
-  cursor: pointer;
+  }
+    .header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    }
 
-  font-family: 'Bebas Neue', sans-serif;
-  line-height: 72px;
- 
-  border: 2px solid rgba(0, 0, 0, 0.5);
-  font-size: 20px;
-}
-.btn:hover{
-  background-color: rgba(85, 85, 85, 0.5);
-  color: aliceblue;
-}
+  .sidenav .main-buttons {
+    list-style-type: none;
+    margin: 32px 0;
+    padding: 0;
+    color: #fff;
+  }
+  .sidenav .main-buttons li {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Inconsolata', monospace;
+  }
+  .sidenav .main-buttons > li {
+    padding: 16px 52px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
 
-.btn.btn-humaneye{
-  font-size: 19px;
-}
+  .sidenav2{
+    position: fixed;
+    width: 420px;
+    height: 70%;
+    margin-top: 3%;
+    margin-left: 300px;
+    background-color: #141414;
+    font-family: 'Inconsolata', monospace;
+    border-radius: 5px;
+    display: inline;
+  }
 
-.btn.btn-electric{
-  font-size: 22px;
-}
+  .sidenav3{
+    position: fixed;
+    width: 420px;
+    height: 70%;
+    margin-top: 3%;
+    margin-left: 750px;
+    background-color: #141414;
+    font-family: 'Inconsolata', monospace;
+    border-radius: 5px;
+    display: inline;
+  }
 
-.content-holder{
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 20px;
-}
-
-footer{
-  background-color: rgb(60, 51, 154);
-  font-size: 2dvb;
-}
+  .sidenav4{
+    position: fixed;
+    width: 420px;
+    height: 70%;
+    margin-top: 3%;
+    margin-left: 1200px;
+    background-color: #141414;
+    font-family: 'Inconsolata', monospace;
+    border-radius: 5px;
+    display: inline;
+  }
