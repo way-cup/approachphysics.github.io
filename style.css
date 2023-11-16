@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap');
 @import "compass/css3";
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-
 
 body{
     background-color: #262626;
@@ -78,7 +70,7 @@ body{
   }
 
   .sidenav2{
-    position: fixed;
+    position: absolute;
     width: 420px;
     height: 70%;
     margin-top: 3%;
@@ -90,9 +82,9 @@ body{
   }
 
   .sidenav3{
-    position: fixed;
+    position: absolute;
     width: 420px;
-    height: 70%;
+    height: 1110px;
     margin-top: 3%;
     margin-left: 750px;
     background-color: #141414;
@@ -102,7 +94,7 @@ body{
   }
 
   .sidenav4{
-    position: fixed;
+    position: absolute;
     width: 420px;
     height: 70%;
     margin-top: 3%;
@@ -112,3 +104,63 @@ body{
     border-radius: 5px;
     display: inline;
   }
+
+.socialManager{
+  width: 45px;
+  height: 45px;
+  padding-left: 23px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+
+.Content-Manager{
+  text-align: center;
+}
+
+.btn{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 95%;
+  height: 60px;
+  font-size: 18px;
+  background-color: #1f1f1f;
+  border: 1px solid;
+  transition: 0.5s;
+  color: aliceblue;
+}
+
+.btn:hover{
+  cursor: pointer;
+  font-size: 18px;
+  background-color: antiquewhite;
+  color: #141414;
+  border: #141414 1px solid;
+}
+
+.btn_X{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 95%;
+  height: 60px;
+  font-size: 18px;
+  background-color: #1f1f1f;
+  border: 1px solid;
+  transition: 0.5s;
+  color: aliceblue;
+}
+
+.btn_X:hover{
+  cursor: pointer;
+  font-size: 18px;
+  background-color: antiquewhite;
+  color: #141414;
+  border: #141414 1px solid;
+}
+
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#fc1a6500,#dfd7da);
+  border-radius: 6px;
+}
