@@ -6,6 +6,7 @@ body{
     background-color: #262626;
     font-family: 'Inconsolata', monospace;
     user-select: none;
+    overflow:hidden;
 }
 
 
