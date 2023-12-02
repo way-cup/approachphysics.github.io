@@ -79,18 +79,23 @@ body{
     font-family: 'Inconsolata', monospace;
     border-radius: 5px;
     display: inline;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
   }
 
   .sidenav3{
     position: absolute;
     width: 420px;
-    height: 1110px;
+    height: 70%;
     margin-top: 3%;
     margin-left: 750px;
     background-color: #141414;
     font-family: 'Inconsolata', monospace;
     border-radius: 5px;
     display: inline;
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
 
   .sidenav4{
@@ -103,6 +108,11 @@ body{
     font-family: 'Inconsolata', monospace;
     border-radius: 5px;
     display: inline;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  
   }
 
 .socialManager{
