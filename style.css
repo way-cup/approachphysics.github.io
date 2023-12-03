@@ -6,7 +6,6 @@ body{
     background-color: #262626;
     font-family: 'Inconsolata', monospace;
     user-select: none;
-    
 }
 
 
@@ -45,7 +44,7 @@ body{
     display: inline;
     margin-top: 40%;
     margin-left: 2%;
-
+    z-index: 2;
   }
     .header{
     text-align: center;
